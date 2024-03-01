@@ -32,28 +32,35 @@ Prometheus Yaml file is given the scrape points to collect the metrics from as j
 ![Screenshot 2024-03-01 020519](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/95bcc7af-06d0-4ce5-beb6-98513563391c)
 - Add datasource as Prometheus
 - ![Screenshot 2024-03-01 020737](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/c8610034-0663-4720-ba94-b348871a0fbe)
-- Add the url of the prometheus
+- Added the url of the prometheus
 - ![Screenshot 2024-03-01 020903](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/58519d3c-dab2-4894-9d2d-59d84d424900)
 
-   - Create advanced Grafana dashboards to display both the default and custom metrics from the MERN application.
-![Screenshot 2024-03-01 022649](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/7c2c3dfe-b511-4fd5-ad7c-6809d5bb1db6)
+   - Created advanced Grafana dashboards to display both the default and custom metrics from the MERN application.
+![Screenshot 2024-03-01 021411](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/4655b525-dd28-49aa-917e-44c48fbc9117)
+![Screenshot 2024-03-01 021500](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/6898d29d-f5cc-4ce1-b9bb-e6cc14ef9080)
 
-   - Include detailed visualizations for backend performance, database health, and frontend performance (if possible).
+
+   - Included detailed visualizations for backend performance, database health, and frontend performance (if possible).
 
 ## 4. Log Aggregation:
 
-   - Integrate a log aggregation system (such as Loki, ELK Stack, or Fluentd) to collect and visualize logs from the MERN application.
+   - Integrated a log aggregation system (such as Loki, ELK Stack, or Fluentd) to collect and visualize logs from the MERN application.
 
-   - Create a dashboard in Grafana to explore and analyze these logs.
+   - Created a dashboard in Grafana to explore and analyze these logs.
+![Screenshot 2024-03-01 022649](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/610e1f0e-e5c2-4d2d-a80d-cc8ea8a289e0)
 
-## 5. Implement Distributed Tracing:
+## 5. Alerting and Anomaly Detection:
 
-   - Set up distributed tracing in the application using tools like Jaeger or Zipkin.
+   - Developed sophisticated alerting rules in Grafana based on application-specific metrics and log patterns.
+ ![Screenshot 2024-03-01 152533](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/09cedfd8-a52b-49f0-9d8b-f9802af7f9ff)
 
-   - Integrate tracing data into Grafana for a full view of request flows through the application stack.
+![image](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/dc7614db-cf21-4802-ae58-11a3253b1546)
+![image](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/64fbf3af-3314-40db-b72f-27d55f6c50d8)
+![image](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/cb3cd15f-fffe-4c72-8b23-2cad436c4914)
+![image](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/a9ebc4d2-a516-4562-a969-d999a155a226)
+Now the alert is created ,it will alert when the define threshhold is reached.
+![image](https://github.com/rk630/MERN_Application_with_Grafana_and_Prometheus/assets/139606316/e2416fc3-1ef3-44cc-b017-e7fd732ad823)
 
-## 6. Alerting and Anomaly Detection:
 
-   - Develop sophisticated alerting rules in Grafana based on application-specific metrics and log patterns.
 
-   - Explore anomaly detection with Grafana, using the gathered metrics and logs.
+   - Explored anomaly detection with Grafana, using the gathered metrics and logs.
